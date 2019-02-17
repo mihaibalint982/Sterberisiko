@@ -7,6 +7,7 @@ public class Patient {
     private float meanHGS;
     private float risk;
 
+    public Patient(){};
     public Patient(String name, int age, int height, float meanHGS) {
         this.name = name;
         this.age = age;
